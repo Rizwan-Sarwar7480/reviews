@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+}
+.rs__testimonals {
+    padding: 50px 0px;
+}
+
+.rs__testimonals .rs__heading {}
+
+.rs__testimonals .rs__heading h1 {
+    margin: 0px 0px 50px;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.rs__testimonals .rs__item {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    /* content: "\07b"; */
+}
+
+.rs__testimonals .rs__item .rs__img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 0px auto 30px;
+}
+
+.rs__testimonals .rs__item .rs__text {
+    margin: 0px 0px 30px;
+}
+
+.rs__testimonals .rs__item .rs__sm__text {
+}
